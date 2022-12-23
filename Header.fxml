@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<?import javafx.scene.control.Label?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myecommerce.HeaderCotroller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#90a5b9" height="116.0" layoutX="-47.0" layoutY="-73.0" stroke="BLACK" strokeType="INSIDE" width="548.0" />
+
+      <Button  layoutX="215.0" layoutY="8.0" mnemonicParsing="false" text="Search" onMouseClicked="#search" />
+      <Button fx:id="loginButton" layoutX="434.0" layoutY="8.0" mnemonicParsing="false" text="Login" onMouseClicked="#login" />
+      <Button fx:id="logoutButton" layoutX="434.0" layoutY="40.0" mnemonicParsing="false" text="Logout" opacity="0.0" onMouseClicked="#logout" />
+
+      <Label onMouseClicked="#logoutappear" fx:id="email" layoutX="300"  layoutY="8.0"></Label>
+      <TextField fx:id="searchText" layoutX="60.0" layoutY="8.0" promptText="Search" />
+   </children>
+</AnchorPane>
